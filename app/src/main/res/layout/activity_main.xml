@@ -39,9 +39,8 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
-            app:errorEnabled="true"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            android:hint="Password">
 
             <android.support.design.widget.TextInputEditText xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
@@ -53,6 +52,22 @@
             android:layout_width="150dp"
             android:layout_gravity="center_horizontal"
             android:text="Login"
+            android:id="@+id/btn_login"
+            android:layout_height="wrap_content"/>
+
+        <android.support.design.button.MaterialButton
+            android:layout_width="150dp"
+            android:text="Register"
+            app:cornerRadius="32dp"
+            app:rippleColor="#51d736"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
+        <android.support.design.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="150dp"
+            android:text="Reset Password"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"/>
 
 
